@@ -20,7 +20,8 @@ a{
 }
 
 body{
-    background-color: rgba(237, 251, 240, 0.743);
+    background-color: rgb(226, 254, 231);
+
     color: black;
 
     overflow-x: hidden;
@@ -32,10 +33,12 @@ p{
 
 /* header */
 header{
-    height: auto;
+    height: 15.5vh;
     /* width는 container로 지정 */
     border-bottom: 0.1rem solid black;
     background-color: inherit;
+
+    position: fixed;
 }
 
 .header_title{
@@ -68,3 +71,10 @@ nav > button{
 
     cursor: pointer;
 }
+
+.header_space{
+    height: 15.5vh;
+}
+
+
+

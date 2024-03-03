@@ -36,5 +36,21 @@
     margin-bottom: 1.1rem;
 }
 
+/* articles */
+.articles_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.articles_p{
+    font-size: 3rem;
+}
+
+.articles_img{
+    width: 20rem;
+    height: 20rem;
+}
 
 
