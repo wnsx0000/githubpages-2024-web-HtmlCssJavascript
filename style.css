@@ -1,0 +1,80 @@
+/* 기본 스타일 시트 초기화 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 전역적 속성 지정 */
+.container{ /* container. wrapper로 사용. 가로 길이 지정. */
+    width: 100vw;
+}
+
+.main_wrapper{ /* main 영역의 크기 지정. */
+    padding: 5rem 18rem;
+}
+
+body{
+    background-color: rgb(226, 254, 231);
+
+    color: black;
+
+    overflow-x: hidden;
+}
+
+p{
+    font-family: "Nanum Gothic Coding", monospace;
+}
+
+/* header */
+header{
+    height: 15.5vh;
+    /* width는 container로 지정 */
+    border-bottom: 0.1rem solid black;
+    background-color: inherit;
+
+    position: fixed;
+}
+
+.header_title{
+    padding: 0.5rem;
+
+    color: inherit;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+nav{
+    height: 2rem;
+    width: inherit;
+    padding-bottom: 0.8rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav > button{
+    border: 0;
+
+    background-color: transparent;
+    color: inherit;
+    font-size: 1.1rem;
+    font-family: "Nanum Gothic Coding", monospace;
+
+    cursor: pointer;
+}
+
+.header_space{
+    height: 15.5vh;
+}
+
+
+
