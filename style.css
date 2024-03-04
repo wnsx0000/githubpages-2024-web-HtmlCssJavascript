@@ -10,6 +10,10 @@ a{
     color: inherit;
 }
 
+html{
+    font-size: 16px;
+}
+
 /* 전역적 속성 지정 */
 .container{ /* container. wrapper로 사용. 가로 길이 지정. */
     width: 100vw;
@@ -33,7 +37,7 @@ p{
 
 /* header */
 header{
-    height: 15.5vh;
+    height: 7rem;
     /* width는 container로 지정 */
     border-bottom: 0.1rem solid black;
     background-color: inherit;
@@ -75,6 +79,43 @@ nav > button{
 .header_space{
     height: 15.5vh;
 }
+
+/* 미디어 쿼리 */
+@media screen and (max-width:992px){
+    html{
+      font-size:14px;
+    }
+
+    .main_wrapper{ /* main 영역의 크기 지정. */
+        padding: 4rem 14rem;
+    }
+  }
+  @media screen and (max-width:768px){
+    html{
+      font-size:13px;
+    }
+    .main_wrapper{ /* main 영역의 크기 지정. */
+        padding: 3rem 12rem;
+    }
+  }
+  @media screen and (max-width:576px){
+    html{
+      font-size:12px;
+    }
+    .main_wrapper{ /* main 영역의 크기 지정. */
+        padding: 3rem 9rem;
+    }
+  }
+  @media screen and (max-width:400px){
+    html{
+      font-size:11px;
+    }
+    .main_wrapper{ /* main 영역의 크기 지정. */
+        padding: 2rem 6rem;
+    }
+  }
+
+
 
 
 
