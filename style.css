@@ -120,7 +120,7 @@ nav > button{
     html{
       font-size:12px;
     }
-    .main_wrapper{ /* main 영역의 크기 지정. */
+    .main_wrapper{ /* main 영역의 크기 지정. */ 
         padding: 3rem 9rem;
     }
 
