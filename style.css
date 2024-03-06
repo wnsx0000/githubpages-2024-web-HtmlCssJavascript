@@ -99,6 +99,10 @@ nav > button{
     .main_wrapper{ /* main 영역의 크기 지정. */
         padding: 4rem 14rem;
     }
+
+    nav{
+        gap: 3rem;
+    }
   }
   @media screen and (max-width:768px){
     html{
@@ -106,6 +110,10 @@ nav > button{
     }
     .main_wrapper{ /* main 영역의 크기 지정. */
         padding: 3rem 12rem;
+    }
+
+    nav{
+        gap: 2rem;
     }
   }
   @media screen and (max-width:576px){
@@ -115,6 +123,10 @@ nav > button{
     .main_wrapper{ /* main 영역의 크기 지정. */
         padding: 3rem 9rem;
     }
+
+    nav{
+        gap: 1rem;
+    }
   }
   @media screen and (max-width:400px){
     html{
@@ -122,6 +134,10 @@ nav > button{
     }
     .main_wrapper{ /* main 영역의 크기 지정. */
         padding: 2rem 6rem;
+    }
+
+    nav{
+        gap: 0rem;
     }
   }
 
