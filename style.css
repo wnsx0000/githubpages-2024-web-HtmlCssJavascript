@@ -37,6 +37,8 @@ p{
 
 /* header */
 header{
+    background-color: rgb(5, 50, 13);
+
     height: 7rem;
     /* width는 container로 지정 */
     border-bottom: 0.1rem solid black;
@@ -62,16 +64,24 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 1rem;
+    gap: 4rem;
+}
+
+.button_sel{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 nav > button{
     border: 0;
 
     background-color: transparent;
-    color: inherit;
+    color: rgba(0, 0, 0, 0.5);
     font-size: 1.1rem;
     font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 1000;
+    font-style: italic;
 
     cursor: pointer;
 }
