@@ -52,8 +52,8 @@ header{
 
     color: inherit;
     text-align: center;
-    font-size: 4rem;
-    font-weight: bold;
+    font-size: 3rem;
+    /* font-weight: bold; */
 }
 
 nav{
