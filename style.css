@@ -52,7 +52,7 @@ header{
 
     color: inherit;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 300;
 }
 
@@ -89,6 +89,7 @@ nav > button{
 .header_space{
     height: 15.5vh;
 }
+
 
 /* 미디어 쿼리 */
 @media screen and (max-width:992px){
