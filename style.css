@@ -90,6 +90,13 @@ nav > button{
     height: 15.5vh;
 }
 
+.documents_category {
+    margin-bottom: 0.9rem;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 1000;
+    font-family: "Nanum Gothic Coding", monospace;
+}
 
 /* 미디어 쿼리 */
 @media screen and (max-width:992px){
