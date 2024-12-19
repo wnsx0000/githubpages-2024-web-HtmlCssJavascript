@@ -24,7 +24,8 @@ html{
 }
 
 body{
-    background-color: rgb(226, 254, 231);
+    /* background-color: rgb(226, 254, 231); */
+    background-color: rgb(255, 255, 255);
 
     color: black;
 
@@ -39,7 +40,7 @@ p{
 header{
     background-color: rgb(5, 50, 13);
 
-    height: 7rem;
+    height: 3.2rem;
     /* width는 container로 지정 */
     border-bottom: 0.1rem solid black;
     background-color: inherit;
@@ -61,6 +62,7 @@ header{
 nav{
     height: 2rem;
     width: inherit;
+    padding-top: 0.8rem;
     padding-bottom: 0.8rem;
 
     display: flex;
@@ -89,7 +91,8 @@ nav > button{
 }
 
 .header_space{
-    height: 15.5vh;
+    /* height: 15.5vh; */
+    height: 7vh;
 }
 
 .documents_category {
